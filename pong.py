@@ -42,9 +42,9 @@ clock = pygame.time.Clock()
 pygame.display.set_caption("PONG")
 icon = pygame.image.load("img/icono.ico")
 pygame.display.set_icon(icon)
-soundGol = pygame.mixer.Sound('sonidos/gol.mp3')
-soundRebot = pygame.mixer.Sound('sonidos/rebote.mp3')
-pygame.mixer.music.load('sonidos/loop.mp3')
+soundGol = pygame.mixer.Sound('sounds/gol.mp3')
+soundRebot = pygame.mixer.Sound('sounds/rebote.mp3')
+pygame.mixer.music.load('sounds/loop.mp3')
 pygame.mixer.music.play(50)
 
 #CONTIENE TODOS LOS SPRITES A DIBUJAR
